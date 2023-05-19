@@ -3,11 +3,12 @@
     "prettier",
     "airbnb",
     "airbnb/hooks",
-    "prettier/react",
     "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint",
     "plugin:prettier/recommended"
   ],
+  "rules": {
+    "react/jsx-filename-extension":["warn",{"extensions":[".tsx"]} ]
+  },
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint"]
 }
